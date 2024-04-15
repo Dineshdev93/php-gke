@@ -1,6 +1,7 @@
 <?php
 session_start();
 include("./php/config.php");
+
 // hello php
   if (array_key_exists("logout", $_GET)) {
       // check logout value 1 or not
